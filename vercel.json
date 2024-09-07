@@ -15,9 +15,9 @@
   "build": {
     "env": {
       "GOOGLE_CHROME_SHIM": "/usr/bin/google-chrome-stable"
+    },
+    "commands": {
+      "build": "bash build.sh"
     }
-  },
-  "install": {
-    "command": "apt-get install -y wget unzip && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && dpkg -i google-chrome*.deb"
   }
 }
