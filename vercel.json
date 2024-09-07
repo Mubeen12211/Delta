@@ -11,13 +11,5 @@
       "src": "/(.*)",
       "dest": "/api.py"
     }
-  ],
-  "build": {
-    "env": {
-      "GOOGLE_CHROME_SHIM": "/usr/bin/google-chrome-stable"
-    },
-    "commands": {
-      "build": "bash build.sh"
-    }
-  }
+  ]
 }
